@@ -123,7 +123,7 @@ if latitude and longitude:
 
         if not hospitals:
             print("No suitable hospital found. Expanding search to 7.5 km...")
-print("\n")
+print("Hi\n")
 # Open Serial Connection
 try:
     Arduino = serial.Serial(SERIAL_PORT, BAUD_RATE, timeout=1)
